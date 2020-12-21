@@ -1,0 +1,395 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.experience{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.experience h1{
+    font-size: 60px;
+    padding-left: 10%;
+}
+
+.experience .box{
+    width: 100%;
+    height: 80%;
+    padding: 10%;
+    box-sizing: border-box;
+    background: url('sunset.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ 
+.experience .box .boxin{
+    width: 30%;
+    display: inline-block;
+}
+.experience .box .boxin img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.box .boxin .more{
+background-color: seashell;
+width: 200px;
+height: 200px;
+box-sizing: border-box;
+padding: 20px;
+}
+.boxin .more .datess{
+    background-color: red;
+    width: 100px;
+    height: 15px;
+    padding: 8px;
+    color: white;
+
+}
+
+.boxin .more .datess:hover{
+    background-color:white;
+    color: red;
+}
+
+
+.experience .greenpart{
+    /* width: 100%;
+    height: 20%; */
+    background-color: springgreen;
+    box-sizing: border-box;
+    padding: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+/* .greenpart .h2{ */
+/* text-align: center; */
+/* margin: 20%; */
+/* } */
+
+.greenpart .gcontent{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+.greenpart .gcontent h2{
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 5px;
+}
+
+.greenpart .gcontent .buttons{
+    margin-top: 20px ;
+
+}
+
+.greenpart .gcontent .buttons .myworks{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color:springgreen;
+    box-sizing: border-box;
+    padding: 20px 30px;  
+    border-radius: 5px;  
+
+}
+
+.greenpart .gcontent .buttons .hireme{
+    width: 120px;
+    height: 40px;
+    background-color:black;
+    color:white;
+    box-sizing: border-box;
+    padding: 20px 30px;  
+    border-radius: 5px;  
+
+}
+.display{
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.display h1{
+    font-size: 60px;
+    width:60%;
+    /* padding-left: 10%; */
+}
+.display .pictures{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* padding-sleft: 10%; */
+    /* box-sizing: border-box; */
+
+}
+
+.display .pictures img{
+    width: 33.3%;
+    height: 33.3%;
+}
+
+.blogs{
+    background: url('man.jpg');
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    /* display: flex; */
+}
+
+.blogs h1{
+    width: 40%;
+    font-size: 60px;
+    margin-left: 10%;
+    /* padding-left: 10%; */
+    /* padding-top: 40px; */
+    /* height: 100%; */
+    padding-bottom: 70px;
+}
+
+.blogs h3{
+    color: aqua;
+    /* padding-bottom: 90px; */
+    margin-left: 10%;
+}
+
+.blogs .posts{
+display: flex;
+flex-direction: row;
+width: 80%;
+margin-left: 10%;
+align-items: center;
+}
+
+
+.blogs .posts .writings{
+    background-color: beige;
+    width: 30%;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.blogs .posts .writings .date{
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+    color: white;
+}
+.blogs .posts .writings .date:hover{
+    background-color: beige;
+    color: red;
+}
+.clients{
+    width: 100%;
+    height: 100%;
+/* margin-top: 50px; */
+background-color: rgb(211, 213, 214);
+/* padding-left: 5%; */
+/* display: flex; */
+/* flex-direction: row; */
+}
+
+.clients h1{
+    width: 60%;
+ font-size: 60px;
+ padding-top: 40px;
+ margin-bottom:100px;
+ margin-left: 10%;  
+}
+
+.clients .next{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    
+}
+.clients .next .Mariana{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 500px;
+    justify-content: space-between;
+    /* padding-top: 0px; */
+}
+
+.clients .Mariana .pics img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    /* background-color: green; */
+}
+
+.clients .next .Mariana .together{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 20px; */
+}
+
+.together .icons{
+    display: flex;
+    flex-direction: row;
+    
+     
+}
+.together .sayings{
+    justify-content: space-between;
+    /* background-color: yellow; */
+    height: 30%;
+width:80%;
+}
+.together .sayings h6{
+    font-size: large;
+    color: green;
+    /* padding: 0px; */
+    /* background-color: green; */
+}
+
+/* .together .sayings h3{ */
+    /* background-color: green; */
+    /* margin-top: 0px; */
+/* } */
+
+
+.together .icons img{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+    /* display: flex;
+    flex-direction:; */
+}
+
+.contactus{
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+
+
+}
+
+.contactus h1{
+ font-size: 60px; 
+ padding-top: 40px;  
+padding-bottom: 50px ;
+}
+
+.contactus .addtouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contactus .Address{
+    width: 40%;
+    /* justify-content: space-evenly; */
+    /* background-color: aqua; */
+}
+
+
+.contactus .addtouch h3{
+    padding-bottom: 30px;
+}
+
+
+.addtouch .Address .info .things img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    /* padding-left: 20%; */
+    /* background-color: red; */
+}
+
+.contactus .Address .info .things{
+    display: flex;
+    flex-direction: row;
+ /* padding-bottom: 20%; */
+}
+
+.contactus .Address .info .things .codings{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
+
+.contactus .intouch .formss{
+ width: 100%;
+ /* background-color: red; */
+    /* padding-left: 10%; */
+}
+.intouch .formss form{
+    display: flex;
+    flex-direction: column;
+
+}
+.intouch .formss form .three{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    margin-bottom: 10%;
+    justify-content: space-evenly;
+}
+
+.intouch .formss form .three input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+.intouch .formss form .three label{
+    padding-top: 20px;
+    margin-right: 20px;
+   
+}
+
+.intouch .formss form .three textarea{
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+}
+.intouch .formss form img{
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    /* color: red; */
+    /* pad-left: 20px; */
+}
+
+#submits{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    /* justify-content: flex-end; */
+    margin-left: 390px;
+    border-radius: 5px;
+} 
+
+.footer {
+    background:url('sunset.jpg');
+    padding: 70px;
+
+    
+ 
+ } 
+footer .footer-content{
+    width: 40%; 
+    margin: 0px auto;
+     box-sizing: border-box;
+ }
